@@ -1,0 +1,62 @@
+--------------------------------------------------------------Contact ------------------------------------------------------
+
+<p>Hello Saviour Bites Team,</p>
+<p>You got a new message from:<strong>{{fullname}}</strong></p>
+
+<p>
+  <strong>Full Name:</strong> {{fullname}}<br>
+  <strong>Phone Number:</strong> {{PhoneNo}}<br>
+  <strong>Email:</strong> {{email}}
+</p>
+
+<p>   
+   <strong>message:</strong>  {{message}}
+</p>
+
+<p>
+  Best regards,<br>
+  Saviour Bites
+</p>
+
+--------------------------------------Check out------------------------------------
+
+<p>Hello {{Saviour Bites}},</p>
+<p>You got a new order from {{user_name}}:</p>
+<div style="padding: 12px; border-left: 4px solid #d0d0d0; font-style: italic;">
+<p><strong>Name:</strong> {{user_name}}</p>
+<p><strong>Phone:</strong> {{user_phone}}</p>
+<p><strong>Delivery Area:</strong> {{user_area}}</p>
+<p><strong>Delivery Address:</strong> {{user_address}}</p>
+<p><strong>Veggies:</strong> {{user_veggies}}</p>
+<p><strong>Spicy:</strong> {{user_spicy}}</p>
+<p><strong>Coupon Code:</strong> {{coupon_code}}</p>
+<!--  <p><strong>Sprouts:</strong> {{user_sprouts}}</p> -->
+<p><strong>Gym Member:</strong> {{user_gym}}</p>
+<p><strong>Message:</strong> {{user_message}}</p>
+<p><strong>Delivery Charges:</strong> {{delivery_charges}}</p>
+<p><strong>Service &amp; Packing:</strong> {{service_charges}}</p>
+<p><strong>Cart Data:</strong></p>
+<pre>{{cart_data}}</pre>
+<p>&nbsp;</p>
+<p><strong>Total Amount:</strong> {{total_amount}}</p>
+</div>
+<p>Best wishes,<br>Saviour Bites</p>
+
+--------------------------------------Booking------------------------------------
+
+
+<p>Hello Saviour Bites</p>
+<p>New Booking Alert {{Name}}</p>
+
+<p>
+  <strong>Name:</strong> {{Name}}<br>
+  <strong>Phone Number:</strong> {{PhoneNo}}<br>
+  <strong>Activity Type:</strong> {{ActivityType}}<br>
+  <strong>Date:</strong> {{Date}}<br>
+  <strong>Time:</strong> {{Time}}<br>
+  <strong>Participants:</strong> {{Participants}}
+</p>
+
+<p>   
+   <strong>Special Notes:</strong>  {{message}}
+</p>
