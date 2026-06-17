@@ -489,7 +489,7 @@ function checkout() {
         veggies: document.getElementById('form-field-veggies').value,
         spicy: document.getElementById('form-field-spicy').value,
         coupon: document.getElementById('coupon-code').value,
-        gym: document.getElementById('form-field-gym').value,
+       // gym: document.getElementById('form-field-gym').value,
         message: document.getElementById('form-field-message').value,
         deliverycharges: document.getElementById('delivery-charge').innerText,
         servicecharges: document.getElementById('service-charge').innerText,
