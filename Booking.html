@@ -557,7 +557,7 @@
                                                             box-sizing: border-box;
                                                         }
                                                     
-                                                        .elementor-form {
+                                                        .booking-elementor-form {
                                                             background-color: #ffffff;
                                                             border-radius: 8px; 
                                                             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);   /* Soft shadow */
@@ -634,7 +634,7 @@
                                                     
                                                         /* Responsive adjustments */
                                                         @media (max-width: 600px) {
-                                                            .elementor-form {
+                                                            .booking-elementor-form {
                                                                 padding: 15px; /* Adjust padding for smaller screens */
                                                             }
                                                     
@@ -656,12 +656,12 @@
                                                         }   
                                                     </style>
 
-                                                    <form class="elementor-form" method="post" name="New Form" >
+                                                    <form class="booking-elementor-form" method="post" name="New Form" >
                                                         <input type="hidden" name="post_id" value="46"/>
                                                         <input type="hidden" name="form_id" value="129d0b75"/>
                                                         <input type="hidden" name="referer_title" value="Booking" />
                                                         <input type="hidden" name="queried_id" value="46"/>
-                                                        <div class="elementor-form-fields-wrapper elementor-labels-above">
+                                                        <div class="booking-elementor-form-fields-wrapper elementor-labels-above">
                                                             <div class="elementor-field-group elementor-field-required">
                                                                 <label for="form-field-fullname" class="elementor-field-label"> Name <span style="color: red"> *</span>
                                                                     <input type="text" name="form_fields[fullname]" id="form-field-fullname" class="elementor-field elementor-size-md elementor-field-textual" placeholder="Enter your name here" required="required" aria-required="true">
@@ -701,7 +701,7 @@
                                                                 <label for="form-field-time" class="elementor-field-label">Time Slot <span style="color: red;">*</span></label>
                                                                         <select id="form-field-time"  class="elementor-field elementor-size-md"  required="required" aria-required="true">
                                                                           <option value="" disabled selected>Select an option</option>
-                                                                          <option value="12:00 PM - 1:00 PM">12:00 PM - 1:00 PM</option>`
+                                                                          <option value="12:00 PM - 1:00 PM">12:00 PM - 1:00 PM</option>
                                                                           <option value="1:00 PM - 2:00 PM">1:00 PM - 2:00 PM</option>
                                                                           <option value="7:00 PM - 8:00 PM">7:00 PM - 8:00 PM</option>
                                                                           <option value="8:00 PM - 9:00 PM">8:00 PM - 9:00 PM</option>
@@ -1062,11 +1062,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     
     <script type="text/javascript">
-        emailjs.init('24FIpdEaUnCRobKau'); // Replace with your Public Key
+        emailjs.init('f_r4sPAWKKbZy9eFF'); // Replace with your Public Key
     </script>
 
-    <script src="js/contact.js" defer></script>  <!--defer ensures the script runs after the document has been fully loaded.-->
-
+    <script src="js/booking.js" defer></script>  <!--defer ensures the script runs after the document has been fully loaded.-->
     <script src="js/script.js?v=5.1" defer></script> <!--defer ensures the script runs after the document has been fully loaded.-->
     <script src="js/cart.js?v=2.8" defer></script>   <!--defer ensures the script runs after the document has been fully loaded.-->
 
