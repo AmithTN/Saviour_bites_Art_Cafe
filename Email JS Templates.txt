@@ -45,8 +45,8 @@
 --------------------------------------Booking------------------------------------
 
 
-<p>Hello Saviour Bites</p>
-<p>New Booking Alert {{Name}}</p>
+<!--<p>Hello Saviour Bites</p>-->
+<p>New Booking Request Received</p>
 
 <p>
   <strong>Name:</strong> {{Name}}<br>
