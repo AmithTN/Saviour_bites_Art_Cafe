@@ -57,6 +57,17 @@ document.addEventListener('DOMContentLoaded', function () {
         message: document.getElementById('form-field-message').value
     };
 
+    // Save to Google Sheet
+    fetch('https://script.google.com/macros/s/AKfycby_c0zG3zpN7W6MDPxauA1JAfbx7Tq_hS5cPRdJzv6F7oinuNNOCO1RxQKueJf0rwQ/exec', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+    });
+
+    // Existing EmailJS
     emailjs.send('service_nzbfq1h', 'template_6ypwcq8', formData)
         .then(function (response) {
 
